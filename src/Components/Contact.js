@@ -18,7 +18,9 @@ export const Contact = () => {
   const onFormUpdate = (category, value) => {
     setFormDetails({ ...formDetails, [category]: value });
   };
-  const handleSubmit = () => {};
+  const handleSubmit = () => {
+    alert("We are working on the mailing feature. We have regrate");
+  };
   return (
     <section className="contact" id="connect">
       <Row className="align-items-center px-3">
