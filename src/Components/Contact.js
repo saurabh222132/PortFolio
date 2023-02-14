@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 
 export const Contact = () => {
@@ -19,7 +19,9 @@ export const Contact = () => {
     setFormDetails({ ...formDetails, [category]: value });
   };
   const handleSubmit = () => {
-    alert("We are working on the mailing feature. We have regrate");
+    alert(
+      "We have regrate!.We are working on the mailing feature. You can connect me on linkedIN."
+    );
   };
   return (
     <section className="contact" id="connect">

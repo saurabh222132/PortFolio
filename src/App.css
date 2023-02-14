@@ -325,7 +325,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* **************************Education Css********** */
 
 .edu {
-  height: 600px;
+  height: 500px;
 
   background: linear-gradient(
     90.21deg,
@@ -343,7 +343,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .highSchool {
   opacity: 0.65;
-  padding-top: 20px;
+  padding-top: 90px;
   background-image: linear-gradient(
     to bottom,
     rgb(77, 76, 76),
@@ -359,6 +359,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: black;
 }
 /************ Skills Css ************/
+.tabs {
+  height: 50px;
+
+  font-size: 25px;
+}
 .skill {
   padding: 50px;
   position: relative;
